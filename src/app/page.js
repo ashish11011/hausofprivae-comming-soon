@@ -1,6 +1,9 @@
+import Image from "next/image";
+
 export default function ComingSoon() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-gray50 text-gray-700 text-center p-6">
+    <main className="flex min-h-screen flex-col items-center justify-center bg-[#d5d6cf] text-gray-700 text-center p-6">
+      <Image src="/logo.jpeg" alt="Logo" width={400} height={400} />
       <h1 className="text-6xl font-bold mb-4">Coming Soon</h1>
       <p className="text-lg text-gray-500">
         Our website is under construction. Please check back soon.
